@@ -1,0 +1,33 @@
+body{
+  background: #696969;
+}
+
+.red{
+  color: red;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+}
+
+input{
+  padding: 7px;
+  border-radius: 10px;
+  border: solid 2px;
+  margin: 5px;
+}
+
+.botao{
+  background: #000;
+  color: #fff;
+  border: none;
+}
